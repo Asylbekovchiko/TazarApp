@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.auth.login.auth.VerificationActivity">
+
+    <ImageView
+        android:id="@+id/btn_back3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_simple_dark_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/we_sent"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_back3" />
+
+
+    <TextView
+        android:id="@+id/wrong_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="+996 000 000 000 "
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sms" />
+
+    <TextView
+        android:id="@+id/tv_get_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:fontFamily="@font/sfprodisplay_regular"
+        android:text="@string/enter_code_to_verify"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wrong_number" />
+
+
+    <LinearLayout
+        android:id="@+id/et_const_get_code"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_get_code">
+
+        <EditText
+            android:id="@+id/numb1"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/selector"
+            android:cursorVisible="false"
+            android:foregroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:fontFamily="@font/sfprodisplay_semibold"
+            android:maxLength="2"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numb2"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:foregroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:hint="0"
+            android:fontFamily="@font/sfprodisplay_semibold"
+            android:inputType="number"
+            android:background="@drawable/selector"
+            android:cursorVisible="false"
+            android:maxLength="2"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numb3"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:background="@drawable/selector"
+            android:cursorVisible="false"
+            android:foregroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="number"
+            android:fontFamily="@font/sfprodisplay_semibold"
+            android:maxLength="2"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numb4"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:foregroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:background="@drawable/selector"
+            android:fontFamily="@font/sfprodisplay_semibold"
+            android:hint="0"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:cursorVisible="false"
+            android:maxLength="2"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numb5"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:foregroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:fontFamily="@font/sfprodisplay_semibold"
+            android:hint="0"
+            android:background="@drawable/selector"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:cursorVisible="false"
+            android:maxLength="2"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/numb6"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp"
+            android:foregroundTint="@android:color/transparent"
+            android:gravity="center"
+            android:hint="0"
+            android:fontFamily="@font/sfprodisplay_semibold"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:cursorVisible="false"
+            android:maxLength="2"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/img_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_const_get_code">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_simple_green_done" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/sfprodisplay_bold"
+            android:text="@string/code_done"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/code_again_const"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_success">
+
+        <TextView
+            android:id="@+id/tv_again_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_send_again"
+            android:textColor="@android:color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:fontFamily="@font/sfprodisplay_regular"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="24dp"
+            android:textColor="@color/colorAccent_8CC341"
+            android:textSize="14sp"
+            android:fontFamily="@font/sfprodisplay_regular"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_again_code"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="00:59 сек" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/tv_send_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/send_again"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code_again_const" />
+
+
+    <TextView
+        android:id="@+id/tv_about_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/about_app"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_send_again" />
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:background="@drawable/rounded_shape_silver_12dp_7b818c"
+        android:enabled="false"
+        android:text="@string/done_next"
+        android:textAllCaps="false"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:textColor="@color/color_white_FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

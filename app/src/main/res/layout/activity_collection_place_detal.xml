@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                class="com.io.tazarapp.utils.WorkaroundMapFragment"
+                android:id="@+id/collection_place_map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:clipToPadding="false"
+                android:paddingTop="20dp"
+                android:paddingBottom="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:context=".ui.citizen.adCreate.view.Step5Activity" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:layout_marginTop="202dp"
+                android:background="@drawable/rounded_shape_white_12dp_ffffff"
+                android:elevation="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_heavy"
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal"
+                    android:layout_marginHorizontal="@dimen/default_margin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/default_margin"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="start|center_vertical"
+                    android:textColor="@color/color_silver_525A68"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:visibility="gone"
+                android:id="@+id/layout_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_shape_white_12dp_ffffff"
+                android:elevation="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/ic_simple_silver_no_profile"
+                    app:civ_border_color="@color/color_white_FFFFFF"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#3f51b5"
+                    app:civ_shadow_radius="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/ic_simple_silver_right_d4d6d9"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/collection_place_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Echo hero"
+                    android:textColor="@color/colorAccent_8CC341"
+                    android:textFontWeight="450"
+                    android:textSize="14sp"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toEndOf="@+id/profile_image"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="UnusedAttribute" />
+
+                <TextView
+                    android:layout_marginStart="14dp"
+                    android:id="@+id/profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Echo"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/profile_image" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_shape_white_12dp_ffffff"
+                android:elevation="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layout_user">
+
+                <ImageView
+                    android:id="@+id/collection_place_ic_location"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_circle_green_location"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_semibold"
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_ic_location"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/collection_place_ic_location"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_ic_location" />
+
+                <ImageView
+                    android:id="@+id/collection_place_ic_phone"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/ic_circle_green_phone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/address" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_semibold"
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_ic_phone"
+                    app:layout_constraintStart_toEndOf="@+id/collection_place_ic_phone"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_ic_phone" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:fontFamily="@font/sfprodisplay_heavy"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/Syryo"
+                android:textColor="@color/color_dark_161C25"
+                android:textFontWeight="800"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginTop="40dp"
+                android:id="@+id/collection_place_worktime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:background="@drawable/rounded_shape_white_12dp_ffffff"
+                android:elevation="2dp"
+                android:paddingHorizontal="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/rv_category">
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_heavy"
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/Worktime"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textFontWeight="800"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="UnusedAttribute" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_monday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="17dp"
+                    android:gravity="center"
+                    android:text="@string/monday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/collection_place_monday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_silver_525A68"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_monday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_monday" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_tuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="@string/tuesday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collection_place_monday" />
+
+                <TextView
+                    android:id="@+id/collection_place_tuesday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_silver_525A68"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_tuesday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_tuesday" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_wednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="@string/wednesday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collection_place_tuesday" />
+
+                <TextView
+                    android:id="@+id/collection_place_wednesday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_silver_525A68"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_wednesday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_wednesday" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_thursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="@string/thursday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collection_place_wednesday" />
+
+                <TextView
+                    android:id="@+id/collection_place_thursday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_silver_525A68"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_thursday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_thursday" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_friday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="@string/friday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collection_place_thursday" />
+
+                <TextView
+                    android:id="@+id/collection_place_friday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_silver_525A68"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_friday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_friday" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_saturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:gravity="center"
+                    android:text="@string/saturday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collection_place_friday" />
+
+                <TextView
+                    android:id="@+id/collection_place_saturday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent_8CC341"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_saturday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_saturday" />
+
+                <TextView
+                    android:fontFamily="@font/sfprodisplay_medium"
+                    android:id="@+id/collection_place_sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="@string/sunday"
+                    android:textColor="@color/color_dark_161C25"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/collection_place_saturday" />
+
+                <TextView
+                    android:id="@+id/collection_place_sunday_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent_8CC341"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/collection_place_sunday"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/collection_place_sunday" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/image"
+                app:layout_constraintTop_toBottomOf="@+id/collection_place_worktime"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="156dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="156dp"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/btn_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@color/color_white_FFFFFF"
+                android:elevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image">
+
+                <Button
+                    android:id="@+id/collection_place_build_route"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/default_margin"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="@dimen/default_margin"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/rounded_selector_green_gradwith_grn_sil"
+                    android:clickable="false"
+                    android:text="@string/build_a_route"
+                    android:textAllCaps="false"
+                    android:textColor="@color/color_white_FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_circle_white_back"
+        android:translationZ="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent_8CC341">#8CC341</color>
+
+    <color name="color_white_FFFFFF">#FFFFFF</color>
+    <color name="color_gray_7B818C">#7B818C</color>
+    <color name="color_tab_selector">@android:color/transparent</color>
+    <color name="color_silver_E9EBED">#E9EBED</color>
+    <color name="color_silver_8492A4">#8492A4</color>
+    <color name="color_silver_A5A9AF">#A5A9AF</color>
+    <color name="color_silver_525A68">#525A68</color>
+    <color name="color_green_4D8CC341">#4D8CC341</color>
+    <color name="color_line_F2F1F4">#F2F1F4</color>
+    <color name="color_silver_919191">#919191</color>
+    <color name="color_dark_161C25">#161C25</color>
+    <color name="color_blue_2478c2">#2478C2</color>
+    <color name="color_blue_3da6db">#3DA6DB</color>
+    <color name="color_yellow_eec51b">#EEC51B</color>
+    <color name="color_red_ea565e">#EA565E</color>
+    <color name="color_silver_dcdfe6">#dcdfe6</color>
+    <color name="color_statistics">@android:color/transparent</color>
+    <color name="color_848484">#848484</color>
+</resources>

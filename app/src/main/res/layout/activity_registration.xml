@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.login.signUp.RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/back_auth"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_simple_dark_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_auth_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/sfprodisplay_heavy"
+        android:gravity="center"
+        android:text="@string/auth_like"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/back_auth" />
+
+
+    <fr.orandja.shadowlayout.ShadowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_auth_reg"
+        app:shadow_color="#0D000000"
+        app:shadow_downscale="1"
+        app:shadow_radius="5"
+        app:shadow_with_color="false"
+        app:shadow_with_css_scale="true"
+        app:shadow_with_dpi_scale="true"
+        app:shadow_with_foreground="true"
+        app:shadow_x_shift="0dp"
+        app:shadow_y_shift="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/citizen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rounded_shape_white_12dp_ffffff"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:textSize="16sp">
+
+
+                <ImageView
+                    android:id="@+id/bg_image_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/ic_as_user"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/tv_image_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/citizen"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/bg_image_up"
+                    app:layout_constraintTop_toTopOf="@+id/bg_image_up" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="9dp"
+                    android:text="@string/citizen_desc"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    app:layout_constraintStart_toEndOf="@id/bg_image_up"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_image_up" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/processor"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/rounded_shape_white_12dp_ffffff"
+                android:gravity="center_vertical"
+                android:textColor="@android:color/black"
+                android:textSize="16sp">
+
+
+                <ImageView
+                    android:id="@+id/bg_image_dwn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/ic_as_collector"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/tv_image_dwn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/factory"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/bg_image_dwn"
+                    app:layout_constraintTop_toTopOf="@+id/bg_image_dwn" />
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="@string/factory_desc"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/sfprodisplay_regular"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@id/bg_image_dwn"
+                    app:layout_constraintStart_toEndOf="@id/bg_image_dwn"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_image_dwn" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </fr.orandja.shadowlayout.ShadowLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

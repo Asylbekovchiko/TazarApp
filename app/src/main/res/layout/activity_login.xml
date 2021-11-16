@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.auth.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/im_logo_auth"
+        android:layout_width="115.72dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="143dp"
+        android:background="@drawable/ic_logo_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_logo_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="@font/sfprodisplay_regular"
+        android:gravity="center"
+        android:text="@string/enter_with_sms"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/im_logo_auth" />
+
+
+    <Button
+        android:id="@+id/btn_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/rounded_shape_green_12dp_8cc341"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:text="@string/registration"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/tv_logo_auth" />
+
+    <Button
+        android:id="@+id/btn_auth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/rounded_shape_silver_12dp_e9ebed"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:text="@string/sign_in"
+        android:textAllCaps="false"
+        android:textColor="#161C25"
+        app:layout_constraintTop_toBottomOf="@+id/btn_registration" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

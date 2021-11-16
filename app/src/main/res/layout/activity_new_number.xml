@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.changeNumber.NewNumActivity">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <TextView
+        android:id="@+id/tv_now_new_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/sfprodisplay_regular"
+        android:text="@string/enter_new_phone_number"
+        android:textColor="@color/color_gray_7B818C"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/const_number"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/const_number"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="@color/color_silver_919191"
+        app:layout_constraintBottom_toTopOf="@+id/btn_new_number">
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            style="LoginTextStyle"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/rounded_shape_silver_12dp_f2f1f4"
+            android:gravity="center"
+            app:ccpDialog_keyboardAutoPopup="false"
+            app:ccpDialog_textColor="@android:color/black"
+            app:ccp_arrowColor="@android:color/black"
+            app:ccp_contentColor="@android:color/black"
+            app:ccp_defaultLanguage="RUSSIAN"
+            app:ccp_defaultNameCode="KG"
+            app:ccp_showFlag="false"
+            app:ccp_showNameCode="false"
+            app:ccp_textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.santalu.maskedittext.MaskEditText
+            android:imeOptions="actionDone"
+            app:met_mask="(###) ## ## ##"
+            android:id="@+id/et_phone_numb"
+            style="LoginTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/rounded_shape_silver_12dp_f2f1f4"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="@string/phone_number_hint"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:paddingStart="20dp"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="#A5A9AF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/ccp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/btn_new_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/rounded_shape_silver_12dp_7b818c"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@id/tv_send_code_new_num"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_send_code_new_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:text="@string/cancel_change_number"
+        android:textColor="@color/colorAccent_8CC341"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

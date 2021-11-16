@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.citizen.news.NewsDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white_FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_simple_dark_back" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_line_F2F1F4"
+        app:layout_constraintTop_toBottomOf="@id/tb_news"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="WebViewLayout">
+            <ImageView
+                android:id="@+id/iv_news"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="180dp" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/sfprodisplay_bold"
+                android:textSize="20sp"
+                android:textColor="@color/color_dark_161C25"
+                android:layout_marginHorizontal="16dp"
+                tools:text="Продажа катализаторов официально запрещена в КР"/>
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/sfprodisplay_medium"
+                android:textSize="12sp"
+                android:layout_marginHorizontal="16dp"
+                tools:text="12.10.2020 18:36" />
+
+            <WebView
+                android:id="@+id/wv_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

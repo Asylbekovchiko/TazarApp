@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/map"
+        android:enabled="true"
+        android:icon="@drawable/ic_btn_nav_map"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/history"
+        android:enabled="true"
+        android:icon="@drawable/ic_btn_nav_history"
+        android:title="@string/history" />
+    <item
+        android:id="@+id/qr_code"
+        android:enabled="true"
+        android:icon="@drawable/ic_btn_nav_qrcode"
+        android:title="@string/qr" />
+<!--    <item-->
+<!--        android:id="@+id/rating_res"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_btn_nav_rating"-->
+<!--        android:title="@string/user_rating" />-->
+    <item
+        android:id="@+id/news"
+        android:enabled="true"
+        android:icon="@drawable/ic_simple_silver_news"
+        android:title="@string/News" />
+    <item
+        android:id="@+id/profile_res"
+        android:enabled="true"
+        android:icon="@drawable/ic_simple_silver_profile"
+        android:title="@string/profile_title" />
+</menu>

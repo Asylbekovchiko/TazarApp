@@ -1,0 +1,300 @@
+<resources>
+    <string name="app_name">Tazar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_message">Browsing...</string>
+
+    <string name="main">Partners</string>
+    <string name="top">Rating</string>
+    <string name="tv_save">Save</string>
+
+    <string name="tab_company">Companies</string>
+    <string name="tab_users">Users</string>
+
+    //выбор языка
+    <string name="title_language">Choose language</string>
+    <string name="rus">Russian</string>
+    <string name="en">English</string>
+
+    //слайдер загрузки
+    <string name="slide_skip">Skip</string>
+    <string name="slide_title_description_1">Earn points and exchange for goods or services</string>
+    <string name="slide_title_description_2">Easy search for collecting spots</string>
+    <string name="slide_title_description_3">Add new recycling spots</string>
+    <string name="slide_description_1">By collecting, delivering and/or handing over your recyclables you get bonuse points which can be exchanged for goods or services at our partners</string>
+    <string name="slide_description_2">Convenient navigation on the map, allows you to build a route to the place of delivery for waste and garbage processing</string>
+    <string name="slide_description_3">By adding new collecting or recycling spot , you help us to expand our map throughout Kyrgyzstan</string>
+
+    //категории
+    //Переработчики
+    <string name="home">Map</string>
+    <string name="history">History</string>
+    <string name="qr">QR-code</string>
+    <string name="user_rating">Rating</string>
+    <string name="setting">More</string>
+    //Граждане
+    <string name="partners">Partners</string>
+    <string name="directory">Eco-guide</string>
+    <string name="something">Something</string>
+    <string name="profile">Profile</string>
+
+    <string name="map">Map</string>
+    <string name="text_switch">List</string>
+    <string name="search">Search spots</string>
+
+    <string name="choose_city">Choose city</string>
+    <string name="check_your_place">Indicate your place</string>
+    <string name="search_city">Search city</string>
+    <string name="next">Next</string>
+    <string name="registration">Registration</string>
+    <string name="sign_in">Sign in</string>
+    <string name="prize">Goods or services</string>
+    <string name="contacts">Contacts</string>
+    <string name="points">Points</string>
+    <string name="done">Earned</string>
+    <string name="next_lvl">Karma level</string>
+    <string name="auth_like_citizens">Register as Eco-user</string>
+    <string name="auth_like">Register as</string>
+    <string name="auth_like_recycler">Register as Eco-collector</string>
+    <string name="citizen">Eco-user</string>
+    <string name="citizen_desc">You want to handover your recycables</string>
+    <string name="factory">Eco-collector</string>
+    <string name="factory_desc">You are recycle or pick up recycables</string>
+    <string name="enter_with_sms">Login and registration is carried out using SMS code</string>
+    <string name="get_code">Get a code</string>
+    <string name="we_sent">We sent you SMS-code</string>
+    <string name="enter_code_to_verify">Enter the received code to confirm that this is your number</string>
+    <string name="code_done">The code is confirmed!</string>
+    <string name="tv_send_again">Resend code available in</string>
+    <string name="send_again">Resend code again</string>
+    <string name="about_app">About app</string>
+    <string name="done_next">Confirm</string>
+    <string name="enter_phone_number">Enter your phone number</string>
+    <string name="six_number_code">Enter 6-digit code</string>
+    <string name="success">Success</string>
+    <string name="confirm_verify">Confirm verification</string>
+    <string name="phone_number_hint">(000) 00 00 00</string>
+
+
+    //Создание объявления
+    <string name="step1_title">Contact information</string>
+    <string name="step1_sub_title">Step 2/5: Fill your contact information</string>
+    <string name="step2_title">Working time</string>
+    <string name="step2_sub_title">Step 3/5: Choose preferred time</string>
+    <string name="step3_title">Recycable type</string>
+    <string name="step3_sub_title">Step 1/5: Choose recycable</string>
+    <string name="step4_title">City</string>
+    <string name="step4_sub_title">Step 4/5: Choose a city</string>
+    <string name="step5_title">Choose a place</string>
+    <string name="step5_sub_title">Step 5/5: Choose a place</string>
+    <string name="your_name">Your name</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="ad_description">Description of recycling</string>
+    <string name="phone_title">Phone</string>
+    <string name="description_hint">Enter text</string>
+    <string name="phone_hint">+996 (000) 00 00 00</string>
+    <string name="hit_checkbox">Hit the checkbox</string>
+    <string name="as_company">As a company/organization</string>
+    <string name="not_chosen">Not indicated</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="day_off">Weekend</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <integer-array name="week">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <!--    <string-array name="week">-->
+    <!--        <item>Понедельник</item>-->
+    <!--        <item>Вторник</item>-->
+    <!--        <item>Среда</item>-->
+    <!--        <item>Четверг</item>-->
+    <!--        <item>Пятница</item>-->
+    <!--        <item>Суббота</item>-->
+    <!--        <item>Воскресенье</item>-->
+    <!--    </string-array>-->
+
+    //alertDialogOption
+    <string-array name="makePhoto">
+        <item>Take a photo</item>
+        <item>Choose from gallery</item>
+        <item>Cancel</item>
+    </string-array>
+
+    <string name="makePhotoTitle">Add a photo</string>
+
+    <string name="add_photo">Please, add a photo</string>
+    <string name="category">Categories</string>
+    <string name="choose_category">Choose a recycable</string>
+    <string name="weight_hint">Weight (kg)</string>
+    <string name="by_list">List   </string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="edit_title">Edit</string>
+    <string name="schedule_title">Hand over time</string>
+    <string name="raw_title">Type of recycables</string>
+    <string name="city_title">City</string>
+    <string name="map_title">Place on the map</string>
+    <string name="add_photo_btn">Add a photo</string>
+    <string name="want_give">Want to hand over</string>
+    <string name="reset">Reset</string>
+    <string name="filter">Filter</string>
+    <string name="understand">Understand</string>
+    <string name="filters">Filters</string>
+    <string name="raw_material">Recycable</string>
+    <string name="show_result">Show the results</string>
+    <string name="choose_raw_materials">Choose recycable</string>
+    <string name="ready">Ready</string>
+    <string name="build_a_route">Get directions</string>
+
+    <string name="about_app_title">About app</string>
+    <string name="profile_title">Profile</string>
+
+    <string name="my_edits_title">My orders</string>
+    <string name="take">Received:</string>
+    <string name="date">Date:</string>
+    <string name="point">Points:</string>
+    <string name="collector">Eco-collector:</string>
+    <string name="partner">Partner:</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="sign_up_citizen">Sign up as a Eco-user</string>
+    <string name="change_number">Change number</string>
+    <string name="current_number">Current number</string>
+    <string name="click_to_change_number">Click to change the number</string>
+    <string name="send_code">Send a code</string>
+    <string name="enter_pass">Enter the password</string>
+    <string name="enter_new_phone_number">Enter new phone number *</string>
+    <string name="enter_new_number">Enter new number</string>
+    <string name="cancel_change_number">Cancel the change of number</string>
+    <string name="have_not_number">This number is not yer registered, please register.</string>
+    <string name="have_number">This number is registered, please login.</string>
+    <string name="have_number_for_recycle">This number is already registered.</string>
+
+    <string-array name="my_edit_titles">
+        <item>Orders</item>
+        <item>History of points</item>
+    </string-array>
+
+    <string name="send">Send</string>
+    <string name="ok">Ok</string>
+
+    <string name="newedit">New</string>
+    <string name="sent">Handed over </string>
+    <string name="Points">points</string>
+    <string name="kg">kg</string>
+
+    <string name="point_name">Name collecting spot</string>
+    <string name="point_name_hint">Enter the name</string>
+    <string name="point_step1_title">Create new spot</string>
+    <string name="point_step1_sub_title">Step 2/5: Fill contact information on the place</string>
+    <string name="success_send">Successfully sent!</string>
+    <string name="success_added">Successfully added!</string>
+    <string name="success_added_sub_title">Your order has been successfully added</string>
+    <string name="day_off_short">Day off</string>
+    <string name="loading_location_message">Loading location..</string>
+    <string name="Found">Found</string>
+
+    <string name="Have_been_credited">Awarded</string>
+    <string name="change">Edit</string>
+    <string name="q_code">QR-code</string>
+    <string name="space_points"> points</string>
+    <string name="show_qr_code">Show QR-code to get the points</string>
+    <string name="current_points">Current points:</string>
+    <string name="btn_scan">Scan</string>
+    <string name="buy">Get</string>
+    <string name="have_not_points">Unsufficient points</string>
+    <string name="prize_price">Value of good/service:</string>
+    <string name="sales_statistics">History of haning over</string>
+    <string name="p"></string>
+    <string name="check_correct_code">Check the entered code is correct</string>
+    <string name="secunds">0 sec</string>
+    <string name="accept_code">Confirmation code</string>
+    <string name="no_ads_message">Unfortunately, there are no orders now. But you can change it</string>
+    <string name="no_soring_history_message">Mmm.. Donuts, you can\n get them too.\n Collect points!</string>
+    <string name="change_language">Switch language</string>
+
+    <string-array name="month">
+        <item>Jan</item>
+        <item>Аeb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string name="is_moderate_title">Moderdation</string>
+    <string name="is_moderate_message">You have not been moderated. Contact the administrator</string>
+    <string name="is_profile_title">Profile</string>
+    <string name="is_profile_message">The profile is not completed. Fill in the data in the profile, schedule and types of recycables</string>
+    <string name="name_company">Name of company</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="edit">Edit</string>
+    <string name="desc">Description</string>
+    <string name="load_image">Upload a photo</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="adress_choose">Enter you address</string>
+    <string name="update_title">Updating</string>
+    <string name="update_message">New update available\nVersion: %1$s</string>
+    <string name="update">Update</string>
+    <string name="skip">Skip</string>
+    <string name="account_exit">Log out</string>
+    <string name="new_step">New place</string>
+    <string name="work_time">Working hours</string>
+    <string name="are_you_sure">Are you sure you want to log out of this account?</string>
+    <string name="go_out">Log out</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="handBook">Eco-guide</string>
+    <string name="get_balance">Whithdrown from your balance</string>
+    <string name="step3_new_point_title">Step 1/5: Choose type of recycables</string>
+    <string name="Syryo">Recycable</string>
+    <string name="Worktime">Working hours</string>
+    <string name="pn">Mn</string>
+    <string name="vt">Tu</string>
+    <string name="sr">Wd</string>
+    <string name="cht">Th</string>
+    <string name="pt">Fr</string>
+    <string name="sb">St</string>
+    <string name="vs">Sn</string>
+    <string name="wekend">Weekend: </string>
+    <string name="work_days">"Working days:"</string>
+    <string name="seconds_short">sec</string>
+    <string name="error_network">Network error</string>
+    <string name="error_no_internet">Check your internet connection</string>
+    <string name="error_server">Server error</string>
+    <string name="error_not_found">Page not found</string>
+    <string name="error_big_file">File size is too large</string>
+    <string name="choose_for_all_days">Select for all days of the week</string>
+    <string name="address_not_found">We can not find the address</string>
+    <string name="get_status">Receiving</string>
+    <string name="take_status">Withdrawal</string>
+    <string name="about_company">About company</string>
+    <string name="All">All</string>
+    <string name="your_statistic_emply">Sorry, your statistics are empty\nbut you can fix it</string>
+    <string name="txt_no_history">We are reducing landfills across the country, \ncome with us!</string>
+    <string name="News">News</string>
+    <string name="No_news_text">Searching.... Best and interesting news specially for you</string>
+</resources>

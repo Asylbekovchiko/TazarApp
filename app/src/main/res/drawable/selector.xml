@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/rounded_shape_white_12dp_brd_2dp8cc341_ffffff" android:state_focused="true" />
+    <item android:drawable="@drawable/rounded_shape_silver_12dp_f2f1f4" />
+
+</selector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".ui.citizen.profile.item_profile.my_advertisements.fragments.AdvertisementFragment">
+
+    <ImageView
+        android:id="@+id/image_no_ads"
+        android:layout_width="310dp"
+        android:layout_height="216dp"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/image_no_my_advertisement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/text_no_ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="34dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:textColor="@color/color_dark_161C25"
+        android:fontFamily="@font/sfprodisplay_medium"
+        android:text="@string/no_ads_message"
+        app:layout_constraintTop_toBottomOf="@+id/image_no_ads" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/edit_fragment_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/default_margin"
+        android:clipToPadding="false"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

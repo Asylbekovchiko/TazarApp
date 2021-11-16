@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Tazar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading_message">Загрузка...</string>
+
+    <string name="main">Партнеры</string>
+    <string name="top">Рейтинг</string>
+    <string name="tv_save">Сохранить</string>
+
+    <string name="tab_company">Компании</string>
+    <string name="tab_users">Пользователи</string>
+
+    //выбор языка
+    <string name="title_language">Выбрать язык</string>
+    <string name="rus">Русский</string>
+    <string name="en">Английский</string>
+
+    //слайдер загрузки
+    <string name="slide_skip">Пропустить</string>
+    <string name="slide_title_description_1">Зарабатывайте баллы и обменивайте на призы</string>
+    <string name="slide_title_description_2">Легкий поиск пунктов сдачи и приема сырья</string>
+    <string name="slide_title_description_3">Добавляйте свои пункты сдачи и приема сырья</string>
+    <string name="slide_description_1">Сдавая сырье, вы получаете бонусные баллы, которые можно обменять на призы от наших партнеров</string>
+    <string name="slide_description_2">Удобная навигация на карте, позволяет выстраивать маршрут до места сдачи на переработку отходов и мусора</string>
+    <string name="slide_description_3">Добавляя, новые пункты приема и сдачи сырья,вы помогаете расширить карту по всему Кыргызстану</string>
+
+    //категории
+    //Переработчики
+    <string name="home">Карта</string>
+    <string name="history">История</string>
+    <string name="qr">QR-Код</string>
+    <string name="user_rating">Рейтинг</string>
+    <string name="setting">Еще</string>
+    //Граждане
+    <string name="partners">Партнеры</string>
+    <string name="directory">Эко-гид</string>
+    <string name="something">Что то</string>
+    <string name="profile">Кабинет</string>
+
+    <string name="map">Карта</string>
+    <string name="text_switch">Списком</string>
+    <string name="search">Поиск пунктов</string>
+
+    <string name="choose_city">Выбрать город</string>
+    <string name="check_your_place">Укажите ваше месторасположение</string>
+    <string name="search_city">Найти город</string>
+    <string name="next">Далее</string>
+    <string name="registration">Регистрация</string>
+    <string name="sign_in">Войти</string>
+    <string name="prize">Призы</string>
+    <string name="contacts">Контактные данные</string>
+    <string name="points">Баллов</string>
+    <string name="done">Собрал(а)</string>
+    <string name="next_lvl"> к вашей карме</string>
+    <string name="auth_like_citizens">Зарегистрироваться как Эко-пользователь</string>
+    <string name="auth_like">Зарегистрироваться как</string>
+    <string name="auth_like_recycler">Зарегистрироваться как Эко-собиратель</string>
+    <string name="citizen">Эко-пользователь</string>
+    <string name="citizen_desc">Вы сортируете и хотите сдать сырье на переработку или на благо</string>
+    <string name="factory">Эко-собиратель</string>
+    <string name="factory_desc">Вы собираете или покупаете сырье на переработку</string>
+    <string name="enter_with_sms">Вход и регистрация производится с помощью смс кода</string>
+    <string name="get_code">Получить код</string>
+    <string name="we_sent">Мы отправили СМС код на номер</string>
+    <string name="enter_code_to_verify">Введите полученный код, чтобы подтведить, что это ваш номер</string>
+    <string name="code_done">Код подтвержден!</string>
+    <string name="tv_send_again">Повторная отправка доступно через</string>
+    <string name="send_again">Отправить снова смс код</string>
+    <string name="about_app">Узнать о приложении</string>
+    <string name="done_next">Подтвердить</string>
+    <string name="enter_phone_number">Введите номер телефона</string>
+    <string name="six_number_code">Введите 6-ти значный код</string>
+    <string name="success">Успешно</string>
+    <string name="confirm_verify">Подтвердите верификацию</string>
+    <string name="phone_number_hint">(000) 00 00 00</string>
+
+    //Создание объявления
+    <string name="step1_title">Контактные данные</string>
+    <string name="step1_sub_title">Шаг 2/5: Заполните ваши контакты</string>
+    <string name="step2_title">Режим работы</string>
+    <string name="step2_sub_title">Шаг 3/5: Укажите время работы</string>
+    <string name="step5_title">Укажите место</string>
+
+    <string name="step3_title">Вид сырья</string>
+    <string name="step3_sub_title">Шаг 1/5: Выберите сырье для сдачи</string>
+    <string name="step4_title">Город</string>
+    <string name="step4_sub_title">Шаг 4/5: Выберите город</string>
+    <string name="step5_sub_title">Шаг 5/5: Укажите место на карте</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="name_hint">Введите имя</string>
+    <string name="ad_description">Описание сырья</string>
+    <string name="phone_title">Телефон</string>
+    <string name="description_hint">Введите текст</string>
+    <string name="phone_hint">+996 (000) 00 00 00</string>
+    <string name="hit_checkbox">Нажмите на галочку</string>
+    <string name="as_company">Как компания/организация</string>
+    <string name="not_chosen">Не указано</string>
+    <string name="to">До</string>
+    <string name="from">От</string>
+    <string name="day_off">Выходной день</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+
+    <integer-array name="week">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <!--    <string-array name="week">-->
+    <!--        <item>Понедельник</item>-->
+    <!--        <item>Вторник</item>-->
+    <!--        <item>Среда</item>-->
+    <!--        <item>Четверг</item>-->
+    <!--        <item>Пятница</item>-->
+    <!--        <item>Суббота</item>-->
+    <!--        <item>Воскресенье</item>-->
+    <!--    </string-array>-->
+
+    //alertDialogOption
+    <string-array name="makePhoto">
+        <item>Сделать фото</item>
+        <item>Выбрать из Галереи</item>
+        <item>Отмена</item>
+    </string-array>
+
+    <string name="makePhotoTitle">Добавить фото</string>
+
+    <string name="add_photo">Пожалуйста! Добавьте фото.</string>
+    <string name="category">Категории</string>
+    <string name="choose_category">Выбрать сырье</string>
+    <string name="weight_hint">Вес (кг)</string>
+    <string name="by_list">Списком   </string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="edit_title">Редактировать</string>
+    <string name="schedule_title">Время сдачи</string>
+    <string name="raw_title">Виды сырья</string>
+    <string name="city_title">Город</string>
+    <string name="map_title">Точка на карте</string>
+    <string name="add_photo_btn">Добавить фото</string>
+    <string name="want_give">Хочу сдать</string>
+
+    <string name="reset">Сброс</string>
+    <string name="filter">Фильтр</string>
+    <string name="understand">Понятно</string>
+    <string name="filters">Фильтры</string>
+    <string name="raw_material">Сырье</string>
+    <string name="show_result">Показать результаты</string>
+    <string name="choose_raw_materials">Выбрать сырье</string>
+    <string name="ready">Готово</string>
+    <string name="build_a_route">Проложить маршрут</string>
+
+    <string name="about_app_title">О приложении</string>
+    <string name="profile_title">Профиль</string>
+    <string name="my_edits_title">Мои объявления</string>
+    <string name="take">Получил:</string>
+    <string name="date">Дата:</string>
+    <string name="point">Балл:</string>
+    <string name="collector">Переработчик:</string>
+    <string name="partner">Партнер:</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="sign_up_citizen">Регистрация как Эко-пользователь</string>
+    <string name="change_number">Смена номера</string>
+    <string name="current_number">Текущий номер</string>
+    <string name="click_to_change_number">Нажмите \'Отправить код\' для смены номера</string>
+    <string name="send_code">Отправить код</string>
+    <string name="enter_pass">Введите пароль</string>
+    <string name="enter_new_phone_number">Введите новый номер телефона *</string>
+    <string name="enter_new_number">Введите новый номер</string>
+    <string name="cancel_change_number">Отменить смену номера</string>
+    <string name="have_not_number">Этого номера нет в базе, просьба зарегистрироваться.</string>
+    <string name="have_number">Этот номер есть в базе, совершите вход.</string>
+    <string name="have_number_for_recycle">Аккаунт с таким номером телефона уже сущесвует.</string>
+
+    <string-array name="my_edit_titles">
+        <item>Объявления</item>
+        <item>История баллов</item>
+    </string-array>
+
+    <string name="send">Отправить</string>
+    <string name="ok">Ок</string>
+
+
+    <string name="newedit">Новое</string>
+    <string name="sent">Сдан</string>
+    <string name="Points">баллов</string>
+    <string name="kg"> кг</string>
+    <string name="point_name">Названиe пункта</string>
+    <string name="point_name_hint">Введите названиe</string>
+    <string name="point_step1_title">Создать новый пункт</string>
+    <string name="point_step1_sub_title">Шаг 2/5: Заполните контакты пункта</string>
+    <string name="success_send">Успешно отправлен!</string>
+    <string name="success_added">Успешно добавлен!</string>
+    <string name="success_added_sub_title">Ваше объявление успешно добавлено</string>
+    <string name="day_off_short">Выходной</string>
+    <string name="loading_location_message">Идет определение местоположения...</string>
+    <string name="Found">Найден</string>
+    <string name="Have_been_credited">Были начисленны</string>
+    <string name="change">Редактировать</string>
+    <string name="q_code">QR-Код</string>
+    <string name="space_points"> баллов</string>
+    <string name="show_qr_code">Предоставьте QR-Код для получение баллов</string>
+    <string name="current_points">Текущие баллы:</string>
+    <string name="btn_scan">Сканировать</string>
+    <string name="buy">Купить</string>
+    <string name="have_not_points">У вас не хватает баллов</string>
+    <string name="prize_price">Стоимость приза:</string>
+    <string name="sales_statistics">Статистика сбыта</string>
+    <string name="p"> б</string>
+    <string name="check_correct_code">Проверьте правильность введенного кода</string>
+    <string name="secunds">0 сек</string>
+    <string name="accept_code">Код подтверждения</string>
+    <string name="no_ads_message">К сожалению объявлений сейчас нет( \nНо вы можете это исправить</string>
+    <string name="no_soring_history_message">Ммм... Пончики, вы тоже можете \nих получить \nСобирая баллы !</string>
+
+    <string-array name="month">
+        <item>янв</item>
+        <item>фев</item>
+        <item>мар</item>
+        <item>апр</item>
+        <item>май</item>
+        <item>июн</item>
+        <item>июл</item>
+        <item>авг</item>
+        <item>сен</item>
+        <item>окт</item>
+        <item>ноя</item>
+        <item>дек</item>
+    </string-array>
+
+
+    <string name="is_moderate_title">Модерация</string>
+    <string name="is_moderate_message">Вы не прошли модерацию. Свяжитесь с администратором</string>
+    <string name="is_profile_title">Профиль</string>
+    <string name="is_profile_message">Профиль не заполнен. Заполните данные в профиле, график работы и виды сырья</string>
+    <string name="name_company">Название компании</string>
+    <string name="phone">Телефон</string>
+    <string name="address">Адрес</string>
+    <string name="name">Имя</string>
+    <string name="city">Город</string>
+    <string name="edit">Редактировать</string>
+    <string name="desc">Описание</string>
+    <string name="load_image">Загрузить фото</string>
+    <string name="enter_name">Введите имя</string>
+    <string name="adress_choose">Укажите адрес</string>
+    <string name="update_title">Обновление</string>
+    <string name="update_message">Доступно новое обновление \nВерсия: %1$s </string>
+    <string name="update">Обновить</string>
+    <string name="skip">Пропустить</string>
+    <string name="account_exit">Выйти из аккаунта</string>
+    <string name="new_step">Новый пункт</string>
+    <string name="work_time">График работы</string>
+    <string name="are_you_sure">Вы уверены что хотите выйти с данного аккаунта?</string>
+    <string name="go_out">Выход с аккаунта</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="handBook">Справочник</string>
+    <string name="get_balance">Снято с вашего баланса</string>
+    <string name="step3_new_point_title">Шаг 1/5: Выберите виды сырья</string>
+    <string name="Syryo">Сырье</string>
+    <string name="Worktime">Режим работы</string>
+    <string name="pn">Пн</string>
+    <string name="vt">Вт</string>
+    <string name="sr">Ср</string>
+    <string name="cht">Чт</string>
+    <string name="pt">Пт</string>
+    <string name="sb">Сб</string>
+    <string name="vs">Вс</string>
+    <string name="wekend">Выходные:</string>
+    <string name="work_days">"Рабочие дни:</string>
+    <string name="change_language">Смена языка</string>
+    <string name="seconds_short">сек</string>
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_no_internet">Проверьте подключение к интернету</string>
+    <string name="error_server">Ошибка сервера</string>
+    <string name="error_not_found">Не найдено страница</string>
+    <string name="error_big_file">Слишком большой размер файла</string>
+    <string name="choose_for_all_days">Выбрать для всех дней недель</string>
+    <string name="address_not_found">Не можем найти адрес</string>
+    <string name="get_status">Получение</string>
+    <string name="take_status">Снятие</string>
+    <string name="about_company">О компании</string>
+    <string name="All">Всё</string>
+    <string name="your_statistic_emply">К сожалению ваша статистика пуста\nно вы можете это исправить</string>
+    <string name="txt_no_history">Мы уменьшаем свалки по стране, \nдавай с нами!</string>
+    <string name="News">Новости</string>
+    <string name="No_news_text">Ищем.... Лучшие,интересные новости специально для вас</string>
+    <string name="ky" translatable="false">Кыргызча</string>
+
+</resources>

@@ -1,0 +1,111 @@
+{
+  "project_info": {
+    "project_number": "436671860191",
+    "firebase_url": "https://tazar-dd9d3.firebaseio.com",
+    "project_id": "tazar-dd9d3",
+    "storage_bucket": "tazar-dd9d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436671860191:android:b3409f67f510f7b3b2886a",
+        "android_client_info": {
+          "package_name": "com.io.tazarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436671860191-577k59ji0j3adqvc8tt8k2g8vl5lrqvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "56d03e88298300089f6df91c1dc3d4d7073af2ba"
+          }
+        },
+        {
+          "client_id": "436671860191-9mfo33p93mia9edt1ossaj1rbae1aprq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "0a60afb8d29c909651211843de1c65df3ff148d5"
+          }
+        },
+        {
+          "client_id": "436671860191-a424ov4dll4obq3qbllbi2odkc5jt4vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "1902a59be7d604e8bbdeb8c2c6cc92a119863517"
+          }
+        },
+        {
+          "client_id": "436671860191-gs5s49ue9ha9ifoab0hli34ajv8st8i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "e8a7f9c6c47a8f3a0ee71e5fde986d745903763b"
+          }
+        },
+        {
+          "client_id": "436671860191-lhu4epjhalf9ji53ec5rv8ds7jssgivs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "4244dcf03fffdf00922826e93fc947c492466c52"
+          }
+        },
+        {
+          "client_id": "436671860191-mo505925rhdbm6rn5gpraf70oeemfs6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "b099222249f890f2edce7704abff5e360179dc56"
+          }
+        },
+        {
+          "client_id": "436671860191-nr55h7gbsuk6ii8c917m1l3r1joqgdgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "b5a9b023ac79cf732133d878319c7d926d16ec15"
+          }
+        },
+        {
+          "client_id": "436671860191-thau7qfrvob3n8o8mo9j056sh2ispk7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.io.tazarapp",
+            "certificate_hash": "348b7696276abfc8579aaa31e007fd095e139f26"
+          }
+        },
+        {
+          "client_id": "436671860191-h9rdp04g0rm68fmv186egshrah28v5pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqxzZL_jEKnoN8Zj0iho4ccN-UjEpPXVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436671860191-h9rdp04g0rm68fmv186egshrah28v5pk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "436671860191-emrfr1af9eo9fsheufavn08pjub2vv8n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sunrise.tazar.Tazar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

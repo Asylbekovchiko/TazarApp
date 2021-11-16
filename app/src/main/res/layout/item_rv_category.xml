@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="4dp"
+
+    android:background="@drawable/rounded_shape_white_12dp_ffffff"
+    android:elevation="3dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_simple_blue_steel" />
+
+    <TextView
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center"
+        android:text="Стекло"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/color_dark_161C25"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="20 кг"
+        android:textColor="@color/color_dark_161C25"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

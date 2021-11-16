@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.citizen.map.MapListFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TextView
+               android:fontFamily="@font/sfprodisplay_heavy"
+               android:id="@+id/title1"
+               android:text="@string/map"
+               android:textSize="22sp"
+               android:textColor="@color/color_dark_161C25"
+               android:layout_centerVertical="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+
+           <androidx.appcompat.widget.SwitchCompat
+               app:switchPadding="10dp"
+               android:text="@string/by_list"
+               android:textAlignment="textStart"
+               android:layout_marginEnd="18dp"
+               android:layout_centerVertical="true"
+               android:layout_alignParentEnd="true"
+               android:layout_width="wrap_content"
+               android:id="@+id/switch_type"
+               android:layout_height="wrap_content"/>
+
+       </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:background="@drawable/rounded_gray_6dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="6dp"
+        android:id="@+id/line_search"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:src="@drawable/ic_simple_silver_search"
+            android:layout_marginStart="12dp"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:hint="@string/search"
+            android:background="@null"
+            android:id="@+id/edit_search"
+            android:layout_toStartOf="@+id/img_filter"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@id/img_search"
+            android:layout_centerVertical="true"
+            android:textColor="#7B818C"
+            android:textSize="14sp"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginEnd="8dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/img_filter"
+            android:src="@drawable/ic_simple_silver_filter"
+            android:layout_marginStart="12dp"
+            android:layout_centerVertical="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="14dp"
+        android:paddingHorizontal="16dp"
+        android:clipToPadding="false"
+        android:layout_below="@+id/line_search"
+        android:id="@+id/rv_filter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <RelativeLayout
+        android:id="@+id/line_map"
+        android:layout_below="@+id/rv_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/btn_create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/rounded_shape_green_20dp_8cc341_bdr_2dp_white"
+                android:drawableStart="@drawable/ic_simple_white_plus"
+                android:drawablePadding="5dp"
+                android:paddingStart="16dp"
+                android:paddingTop="11dp"
+                android:gravity="center_vertical"
+                android:paddingEnd="16dp"
+                android:paddingBottom="11dp"
+                android:text="@string/want_give"
+                android:textColor="@color/color_white_FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_marginTop="8dp"
+        android:id="@+id/rv_result"
+        android:layout_below="@+id/rv_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

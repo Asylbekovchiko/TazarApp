@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.auth.login.signIn.SignInActivity">
+
+    <ImageView
+        android:id="@+id/back_auth_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_simple_dark_back"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_auth_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/sfprodisplay_heavy"
+        android:gravity="center"
+        android:text="@string/sign_in"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/back_auth_back" />
+
+    <TextView
+        android:id="@+id/tv_auth_enter_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/sfprodisplay_regular"
+        android:gravity="center"
+        android:text="@string/enter_with_sms"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_auth_enter" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/et_const_auth"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_shape_silver_12dp_f2f1f4"
+        app:layout_constraintTop_toBottomOf="@+id/tv_auth_enter_info">
+
+
+        <com.santalu.maskedittext.MaskEditText
+            android:id="@+id/et_auth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="+996 (xxx) xx xx xx"
+            android:inputType="phone"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:met_mask="+996 (###) ## ## ##" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_auth"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_shape_silver_12dp_7b818c"
+        android:clickable="false"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:text="@string/get_code"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@+id/et_const_auth" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

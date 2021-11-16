@@ -1,0 +1,17 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    <group
+        android:name="done">
+        <path
+            android:name="bg"
+            android:fillColor="#8CC341"
+            android:pathData="M20,20m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0" />
+        <path
+            android:name="tick"
+            android:fillColor="#ffffff"
+            android:pathData="M17,24.1997L13.5,20.6997C13.1134,20.3131 12.4866,20.3131 12.1,20.6997C11.7134,21.0863 11.7134,21.7131 12.1,22.0997L16.2929,26.2926C16.6834,26.6831 17.3166,26.6831 17.7071,26.2926L28.3,15.6997C28.6866,15.3131 28.6866,14.6863 28.3,14.2997C27.9134,13.9131 27.2866,13.9131 26.9,14.2997L17,24.1997Z" />
+    </group>
+</vector>

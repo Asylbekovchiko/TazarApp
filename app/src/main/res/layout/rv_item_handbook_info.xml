@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="156dp"
+    android:layout_height="156dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="8dp"
+    android:elevation="15dp"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="12dp">
+
+    <TextView
+        android:id="@+id/tv_item_handbook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/sfprodisplay_medium"
+        android:gravity="start"
+        android:translationZ="2dp"
+        android:paddingHorizontal="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Макулатура" />
+
+    <ImageView
+        android:id="@+id/img_item_handbook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:src="@drawable/ic_simple_silver_statustics" />
+</androidx.cardview.widget.CardView>

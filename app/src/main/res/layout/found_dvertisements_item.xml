@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_marginBottom="12dp"
+    android:layout_marginHorizontal="@dimen/default_margin"
+    android:elevation="1dp"
+    android:background="@drawable/rounded_shape_white_12dp_ffffff"
+    android:layout_height="wrap_content"
+    tools:ignore="UnusedAttribute">
+
+    <TextView
+        android:id="@+id/found_adapter_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:textColor="@color/colorAccent_8CC341"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/found_adapter_firm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/sfprodisplay_bold"
+        android:textColor="@color/color_dark_161C25"
+        app:layout_constraintTop_toBottomOf="@+id/found_adapter_status" />
+
+    <TextView
+        android:id="@+id/found_adapter_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/color_gray_7B818C"
+        app:layout_constraintTop_toBottomOf="@+id/found_adapter_firm"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/found_subcategory_flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        zhy:max_select="-1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/found_adapter_address" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

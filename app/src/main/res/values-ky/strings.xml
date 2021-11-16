@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tazar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Салам бош фрагмент</string>
+    <string name="loading_message">Карап чыгууда...</string>
+
+    <string name="main">Өнөктөштөр</string>
+    <string name="top">Рейтинг</string>
+    <string name="tv_save">Сактоо</string>
+
+    <string name="tab_company">Компаниялар</string>
+    <string name="tab_users">Колдонуучулар</string>
+
+<!--    тилди тандаңыз-->
+    <string name="title_language">Тилди тандаңыз</string>
+    <string name="rus">Орусча</string>
+    <string name="en">Англисче</string>
+
+<!--    жүктөө слайдери-->
+    <string name="slide_skip">Өткөрүү</string>
+    <string name="slide_title_description_1">Упайларды топтоп товар жана кызматтарга алмаштыр</string>
+    <string name="slide_title_description_2">Кабыл алуу пункттарын оңой издөө</string>
+    <string name="slide_title_description_3">Жаңы кайра иштетүү пунктун кошуу</string>
+    <string name="slide_description_1">Өз сырьеңузду чогултуу, жеткирүү жана тапшыруу аркылуу сиз упай топтоп, аларды биздин өнөктөштөрдүн товар жана кызматтарына алмаштыра аласыз</string>
+    <string name="slide_description_2">Картанын ыңгайлуу навигациясы калдыктарды жеткирүү жана таштандыларды иштетүү жайларына жол түзүүгө мүмкүнчүлүк берет</string>
+    <string name="slide_description_3">Жаңы чогултуу же кайра иштетүү пункттарын кошуу менен, сиз, Кыргызстан боюнча картабыздын кеңейишине жардам бересиз</string>
+
+<!--    бөлүмдөр-->
+<!--    Кайра иштетүүчүлөр-->
+    <string name="home">Карта</string>
+    <string name="history">Тарых</string>
+    <string name="qr">QR-код</string>
+    <string name="user_rating">Рейтинг</string>
+    <string name="setting">Кошумча</string>
+<!--    Жарандар-->
+    <string name="partners">Өнөктөштөр</string>
+    <string name="directory">Эко-гид</string>
+    <string name="something">Бир нерсе</string>
+    <string name="profile">Профиль</string>
+
+    <string name="map">Карта</string>
+    <string name="text_switch">Тизме</string>
+    <string name="search">Издөө пункттары</string>
+
+    <string name="choose_city">Шаарды тандаңыз</string>
+    <string name="check_your_place">Жайгашкан жериңизди көрсөтүңүз</string>
+    <string name="search_city">Шаарды издөө</string>
+    <string name="next">Кийинки</string>
+    <string name="registration">Катталуу</string>
+    <string name="sign_in">Кирүү</string>
+    <string name="prize">Белектер</string>
+    <string name="contacts">Байланыштар</string>
+    <string name="points">Упайлар</string>
+    <string name="done">Топтолду</string>
+    <string name="next_lvl">Карма көрсөткүчү</string>
+    <string name="auth_like_citizens">Эко-колдонуучу катары катталуу</string>
+    <string name="auth_like">Катталуу</string>
+    <string name="auth_like_recycler">Эко-чогултуучу катары катталуу</string>
+    <string name="citizen">Эко-колдонуучу</string>
+    <string name="citizen_desc">Сиз сырьену сорттоп, кайра иштетүү үчүн же бекер өткөрүп берүүнү каалайсыз</string>
+    <string name="factory">Эко-чогултуучу</string>
+    <string name="factory_desc">Сиз сырьену кайра иштетүү үчүн чогултасыз же сатып аласыз.</string>
+    <string name="enter_with_sms">Кирүү жана катталуу смс аркылуу жүргүзүлөт</string>
+    <string name="get_code">Код алуу</string>
+    <string name="we_sent">Сизге смс-код жөнөтүлдү</string>
+    <string name="enter_code_to_verify">Номериңизди тастыктоо үчүн келген смс-кодун териңиз</string>
+    <string name="code_done">Код тастыкталды!</string>
+    <string name="tv_send_again">Жаңы код (мөөнөт) кийин жеткиликтүү </string>
+    <string name="send_again">Кодду кайра жиберүү</string>
+    <string name="about_app">Тиркеме жөнүндө</string>
+    <string name="done_next">Тастыктоо</string>
+    <string name="enter_phone_number">Телефон номериңизди териңиз</string>
+    <string name="six_number_code">6-сандык кодду териңиз</string>
+    <string name="success">Ийгиликтүү</string>
+    <string name="confirm_verify">Текшерүүнү тастыктоо</string>
+    <string name="phone_number_hint">(000) 00 00 00</string>
+
+
+<!--    Жарыя даярдоо-->
+    <string name="step1_title">Байланыш маалыматы</string>
+    <string name="step1_sub_title">Кадам 2/5: Байланыш маалыматтарыңызды жазыңыз</string>
+    <string name="step2_title">Иштөө убактысы</string>
+    <string name="step2_sub_title">Кадам 3/5: Ыңгайлуу убакытты тандаңыз</string>
+    <string name="step3_title">Сырьенун түрү</string>
+    <string name="step3_sub_title">Кадам 1/5: Сырьену тандоо</string>
+    <string name="step4_title">Шаар</string>
+    <string name="step4_sub_title">Кадам 4/5: Шаарды тандаңыз</string>
+    <string name="step5_title">Жерди тандаңыз</string>
+    <string name="step5_sub_title">Кадам 5/5: Жерди тандаңз</string>
+    <string name="your_name">Атыңыз</string>
+    <string name="name_hint">Атыңызды жазыңыз</string>
+    <string name="ad_description">Сырьену сүрөттөө</string>
+    <string name="phone_title">Телефон</string>
+    <string name="description_hint">Текстти териңиз</string>
+    <string name="phone_hint">+996 (000) 00 00 00</string>
+    <string name="hit_checkbox">Чекбоксту басыңыз</string>
+    <string name="as_company">Компания/уюм катары</string>
+    <string name="not_chosen">Белгиленген эмес</string>
+    <string name="to">Кайда</string>
+    <string name="from">Кайдан</string>
+    <string name="day_off">Дем алыш күндөр</string>
+    <string name="monday">Дүйшөмбү</string>
+    <string name="tuesday">Шейшемби</string>
+    <string name="wednesday">Шаршемби</string>
+    <string name="thursday">Бейшемби</string>
+    <string name="friday">Жума</string>
+    <string name="saturday">Ишемби</string>
+    <string name="sunday">Жекшемби</string>
+
+    <integer-array name="week">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+    <!--    <string-array name="week">-->
+    <!--        <item>Дүйшөмбү</item>-->
+    <!--        <item>Шейшемби</item>-->
+    <!--        <item>Шаршемби</item>-->
+    <!--        <item>Бейшенби</item>-->
+    <!--        <item>Жума</item>-->
+    <!--        <item>Ишемби</item>-->
+    <!--        <item>Жекшемби</item>-->
+    <!--    </string-array>-->
+
+<!--    alertDialogOption-->
+    <string-array name="makePhoto">
+        <item>Сүрөт тартуу</item>
+        <item>Галереядан тандоо</item>
+        <item>Жокко чыгаруу</item>
+    </string-array>
+
+    <string name="makePhotoTitle">Сүрөт кошуу</string>
+
+    <string name="add_photo">Сураныч, сүрөт кошуңуз</string>
+    <string name="category">Категориялар</string>
+    <string name="choose_category">Сырьену тандаңыз</string>
+    <string name="weight_hint">Салмак (кг)</string>
+    <string name="by_list">Тизме</string>
+    <string name="title_activity_maps" translatable="false">Карта</string>
+    <string name="edit_title">Өзгөртүү</string>
+    <string name="schedule_title">Тапшыруу убактысы</string>
+    <string name="raw_title">Сырьенун түрү</string>
+    <string name="city_title">Шаар</string>
+    <string name="map_title">Картадан көрсөтүңүз</string>
+    <string name="add_photo_btn">Сүрөт кошуу</string>
+    <string name="want_give">Тапшыргым келет</string>
+    <string name="reset">Жаңылоо</string>
+    <string name="filter">Фильтр</string>
+    <string name="understand">Түшүнүктүү</string>
+    <string name="filters">Фильтрлер</string>
+    <string name="raw_material">Сырьелор</string>
+    <string name="show_result">Жыйынтыктарды көрсөтүү</string>
+    <string name="choose_raw_materials">Сырьену тандоо</string>
+    <string name="ready">Даяр</string>
+    <string name="build_a_route">Колдонмо алуу</string>
+
+    <string name="about_app_title">Тиркеме тууралуу</string>
+    <string name="profile_title">Профиль</string>
+
+    <string name="my_edits_title">Буйрутмаларым</string>
+    <string name="take">Кабыл алынды:</string>
+    <string name="date">Дата:</string>
+    <string name="point">Упайлар:</string>
+    <string name="collector">Эко-чогултуучу:</string>
+    <string name="partner">Өнөктөш:</string>
+    <string name="delete">Өчүрүү</string>
+    <string name="cancel">Жокко чыгаруу</string>
+
+    <string name="sign_up_citizen">Эко-колдонуучу катары кирүү</string>
+    <string name="change_number">Номерди өзгөртүү</string>
+    <string name="current_number">Учурдагы номер</string>
+    <string name="click_to_change_number">Номер өзгөртүү үчүн басыңыз</string>
+    <string name="send_code">Код жөнөтүү</string>
+    <string name="enter_pass">Сыр сөзүн терүү</string>
+    <string name="enter_new_phone_number">Жаңы номериңизди териңиз *</string>
+    <string name="enter_new_number">Жаңы номериңизди териңиз</string>
+    <string name="cancel_change_number">Номер өзгөртүүнү жокко чыгаруу</string>
+    <string name="have_not_number">Бул номер каттала элек, сураныч, катталыңыз.</string>
+    <string name="have_number">Бул номер катталган, сураныч, кириңиз.</string>
+    <string name="have_number_for_recycle">Мындай номер катталган.</string>
+
+    <string-array name="my_edit_titles">
+        <item>Буйрутмалар</item>
+        <item>Упайлар тарыхы</item>
+    </string-array>
+
+    <string name="send">Жөнөтүү</string>
+    <string name="ok">Макул</string>
+
+    <string name="newedit">Жаңы</string>
+    <string name="sent">Тапшырылган</string>
+    <string name="Points">упайлар</string>
+    <string name="kg">кг</string>
+
+    <string name="point_name">Чогултуу пунктун атаңыз</string>
+    <string name="point_name_hint">Аталышын киргизүү</string>
+    <string name="point_step1_title">Жаңы пункт кошуу</string>
+    <string name="point_step1_sub_title">Кадам 2/5: Жериңиз жөнүндө байланыш маалыматын толтуруңуз</string>
+    <string name="success_send">Ийгиликтүү жөнөтүлдү!</string>
+    <string name="success_added">Ийгиликтүү кошулду!</string>
+    <string name="success_added_sub_title">Буйрутмаңыз ийгиликтүү жөнөтүлдү</string>
+    <string name="day_off_short">Дем алыш</string>
+    <string name="loading_location_message">Локация жүктөлүүдө..</string>
+    <string name="Found">Табылды</string>
+
+    <string name="Have_been_credited">Сыйлык берилди</string>
+    <string name="change">Өзгөртүү</string>
+    <string name="q_code">QR-код</string>
+    <string name="space_points"> упайлар</string>
+    <string name="show_qr_code">Упай алуу үчүн QR-кодду көрсөтүңүз</string>
+    <string name="current_points">Учурдагы упайлар:</string>
+    <string name="btn_scan">Сканерлөө</string>
+    <string name="buy">Алуу</string>
+    <string name="have_not_points">Упайлар жеткиликсиз</string>
+    <string name="prize_price">Товар/кызматтын баасы:</string>
+    <string name="sales_statistics">Тапшыруу тарыхы</string>
+    <string name="p"></string>
+    <string name="check_correct_code">Жөнөтүлгөн коддун тууралыгын текшериңиз</string>
+    <string name="secunds">0 секунд</string>
+    <string name="accept_code">Тастыктоо коду</string>
+    <string name="no_ads_message">Тилеке каршы, азыр буйрутмалар жок. Бирок муну өзгөртүүгө болот</string>
+    <string name="no_soring_history_message">Ммм.. Пончиктер, аларды дагы\n ала аласыз.\n Упайлард чогулт!</string>
+    <string name="change_language">Тилди өзгөртүү</string>
+
+    <string-array name="month">
+        <item>Янв</item>
+        <item>Фев</item>
+        <item>Март</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Авг</item>
+        <item>Сент</item>
+        <item>Окт</item>
+        <item>Ноя</item>
+        <item>Дек</item>
+    </string-array>
+
+    <string name="is_moderate_title">Модерация</string>
+    <string name="is_moderate_message">Модерацияга алынган эмессиз. Администратор менен байланышыңыз</string>
+    <string name="is_profile_title">Профиль</string>
+    <string name="is_profile_message">Профиль толук толтурулган эмес. Дата, расписание жана сырьенун түрлөрүн көрсөтүңүз</string>
+    <string name="name_company">Компаниянын аты</string>
+    <string name="phone">Телефон</string>
+    <string name="address">Дарек</string>
+    <string name="name">Атыңыз</string>
+    <string name="city">Шаар</string>
+    <string name="edit">Өзгөртүү</string>
+    <string name="desc">Сүрөттөө</string>
+    <string name="load_image">Сүрөт жүктөө</string>
+    <string name="enter_name">Атыңызды жазыңыз</string>
+    <string name="adress_choose">Дарегиңизди жазыңыз</string>
+    <string name="update_title">Жаңыланууда</string>
+    <string name="update_message">Акыркы жаңылануу жеткиликтүү\nVersion: %1$s</string>
+    <string name="update">Жаңылануу</string>
+    <string name="skip">Өткөрүү</string>
+    <string name="account_exit">Чыгуу</string>
+    <string name="new_step">Жаңы жер</string>
+    <string name="work_time">Иштөө сааттары</string>
+    <string name="are_you_sure">Бул аккаунттан чыгууну каалайсызбы?</string>
+    <string name="go_out">Чыгуу</string>
+    <string name="yes">Ооба</string>
+    <string name="no">Жок</string>
+    <string name="handBook">Эко-гид</string>
+    <string name="get_balance">Балансыңыздан алынды</string>
+    <string name="step3_new_point_title">Кадам 1/5: Сырьенун түрүн тандаңыз</string>
+    <string name="Syryo">Сырье</string>
+    <string name="Worktime">Иштөө сааттары</string>
+    <string name="pn">Дүй</string>
+    <string name="vt">Шей</string>
+    <string name="sr">Шар</string>
+    <string name="cht">Бей</string>
+    <string name="pt">Жум</string>
+    <string name="sb">Ише</string>
+    <string name="vs">Жек</string>
+    <string name="wekend">Дем алыш күндөр: </string>
+    <string name="work_days">"Иш күндөр:"</string>
+    <string name="seconds_short">сек</string>
+    <string name="error_network">Тармак катасы</string>
+    <string name="error_no_internet">Интернет байланышыңызды текшериңиз</string>
+    <string name="error_server">Сервер катасы</string>
+    <string name="error_not_found">Баракча табылган жок</string>
+    <string name="error_big_file">Файлдын көлөмү өтө чоң</string>
+    <string name="choose_for_all_days">Жуманын бардык күндөрүнө тандаңыз</string>
+    <string name="address_not_found">Дарек табылган жок</string>
+    <string name="get_status">Кабыл алуу</string>
+    <string name="take_status">Чегерүү</string>
+    <string name="about_company">Компания тууралуу</string>
+    <string name="All">Баары</string>
+    <string name="your_statistic_emply">Кечиресиз, статистика жок\nбирок муну өзгөртө аласыз</string>
+    <string name="txt_no_history">Өлкө боюнча таштанды полигондорун азайтуу, \nбизге кошул!</string>
+    <string name="News">Жаңылыктар</string>
+    <string name="No_news_text">Издөөдө.... Эң мыкты жана кызыктуу жаңылыктар сен үчүн</string>
+</resources>
